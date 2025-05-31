@@ -22,6 +22,18 @@ header {
     align-items: center;
 }
 
+.menu-logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.theme-me {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
 main {
     text-align: center;
 }
