@@ -20,6 +20,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+footer {
+    padding: .5rem 0rem;
 }
 
 .menu-logo {
