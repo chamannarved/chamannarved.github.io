@@ -40,6 +40,10 @@ main {
     text-align: center;
 }
 
+.hero-img {
+    padding: 1rem 0;
+}
+
 footer {
     display: flex;
     gap: 10px;
