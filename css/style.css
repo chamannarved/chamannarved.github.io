@@ -92,6 +92,11 @@ footer {
     align-items: center;
 }
 
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
 .copy-text {
     font-size: .8rem;
 }
