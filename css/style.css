@@ -3,6 +3,7 @@
 
     --primary-green: #35D475;
     --primary-blue: #269BD1;
+    --black-900: #171717;
 }
 
 * {
@@ -30,9 +31,7 @@ header {
     padding: 1rem 0;
 }
 
-
-footer {
-    padding: .5rem 0rem;
+    padding: 1rem 1rem;
 }
 
 .menu-logo {
@@ -85,9 +84,17 @@ footer {
     gap: 10px;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 1rem;
+    background-color: var(--black-900);
+    margin-bottom: .5rem;
 }
 
 .social-icons {
     display: flex;
+    gap: 1rem;
     align-items: center;
+}
+
+.copy-text {
+    font-size: .8rem;
 }
