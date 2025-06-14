@@ -66,6 +66,18 @@ main {
     padding: 1rem 0;
 }
 
+.headline {
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sub-headline {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
 footer {
     display: flex;
     gap: 10px;
