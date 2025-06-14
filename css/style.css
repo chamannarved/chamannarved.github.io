@@ -1,3 +1,8 @@
+:root {
+    --primary-green: #35D475;
+    --primary-blue: #269BD1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +25,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 0;
+}
+
+
 footer {
     padding: .5rem 0rem;
 }
@@ -30,10 +39,23 @@ footer {
     gap: .5rem;
 }
 
+.menu-button {
+    border: none;
+    background: none;
+    display: flex;
+}
+
 .theme-me {
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: 1rem;
+}
+
+.hire-btn {
+    padding: .5rem 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: var(--primary-green);
 }
 
 main {
