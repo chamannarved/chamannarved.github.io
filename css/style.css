@@ -56,6 +56,11 @@ header {
     background-color: var(--primary-green);
 }
 
+.hire-btn:hover {
+    box-shadow: 0px 0px 20px 2px var(--primary-green);
+    transition-duration: 300ms;
+}
+
 main {
     text-align: center;
 }
