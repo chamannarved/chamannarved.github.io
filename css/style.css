@@ -153,3 +153,9 @@ footer {
 .copy-text {
     font-size: .8rem;
 }
+
+@media (prefers-color-scheme: dark) {
+    img {
+        filter: brightness(.8) contrast(1.2);
+    }
+}
