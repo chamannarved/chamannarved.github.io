@@ -19,6 +19,9 @@ main {
 
 button {
     cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
 }
 
 ul li {
@@ -36,12 +39,6 @@ header {
     display: flex;
     align-items: center;
     gap: .5rem;
-}
-
-.menu-button {
-    border: none;
-    background: none;
-    display: flex;
 }
 
 .btn-close {
