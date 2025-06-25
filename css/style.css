@@ -51,6 +51,7 @@ header {
 
 .menu-section {
     position: absolute;
+    z-index: 3;
     left: 0;
     top: 0;
     height: 100%;
