@@ -12,3 +12,13 @@ closeBtn.addEventListener('click', function() {
     menuSection.classList.add("hide-menu");
 });
 
+
+// const themeBtn = document.querySelector(".theme-btn");
+// const themeIcon = themeBtn.getHTML;
+//
+// themeBtn.addEventListener("click", function() {
+//     themeBtn.innerHTML = "<img src='assets/imgs/light-theme-icon.svg' alt='lignt-theme-icon' width='30'/>";
+//     document.getRootNode.set colorScheme(light) {
+//
+//     }
+// });
