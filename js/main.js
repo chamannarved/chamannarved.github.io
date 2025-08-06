@@ -12,6 +12,13 @@ closeBtn.addEventListener('click', function() {
     menuSection.classList.add("hide-menu");
 });
 
+window.addEventListener("DOMContentLoaded", function() {
+    if (window.innerWidth > 600) {
+        menuSection.classList.remove("hide-menu");
+    } else {
+        menuSection.classList.add("hide-menu");
+    }
+});
 
 // const themeBtn = document.querySelector(".theme-btn");
 // const themeIcon = themeBtn.getHTML;
