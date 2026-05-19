@@ -17,6 +17,10 @@
   font-family: 'JetBrains Mono';
 }
 
+body {
+  font-family: 'JetBrains Mono', monospace;
+}
+
 main {
   padding: 0 1rem;
 }
