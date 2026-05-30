@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+/* icon pack(s) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
 
 :root {
   color-scheme: dark;
@@ -9,6 +12,11 @@
   --black-900: #171717;
   --white-100: #ffffff;
   --white-900: #6a6a6a;
+
+  --btn-padding: .5rem 1rem;
+  --btn-radius: .7rem;
+
+  --box-radius: 1.5rem;
 }
 
 * {
@@ -63,6 +71,23 @@ header {
   display: flex;
   align-items: center;
   gap: .5rem;
+}
+
+.btn {
+  padding: var(--btn-padding);
+  border-radius: var(--btn-radius);
+  font-weight: bold;
+  gap: .5rem;
+  align-items: center;
+}
+
+.btn-action {
+  background-color: var(--primary-blue);
+  color: var(--white-100);
+}
+
+.btn-action-more {
+  border: .1rem solid var(--white-900);
 }
 
 .btn-close {
