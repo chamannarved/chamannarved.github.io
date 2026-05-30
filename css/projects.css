@@ -1,8 +1,8 @@
 .project-card {
   margin: 12px;
-  border: .5px solid var(--white-900);
-  border-radius: 1.5rem;
-  text-align: left;
+  /* border: .5px solid var(--white-900); */
+  /* border-radius: 1.5rem; */
+  /* text-align: left; */
 }
 
 .project-card>img {
